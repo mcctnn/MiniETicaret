@@ -4,9 +4,9 @@
     {
         public ShoppingCart()
         {
-            ShoppingCartId = Guid.NewGuid();
+            Id = Guid.NewGuid();
         }
-        public Guid ShoppingCartId { get; set; }
+        public Guid Id { get; set; }
         public Guid ProductId { get; set; }
         public int Quantity { get; set; }
     }

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniETicaret.Products.WebAP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniETicaret.ShoppingCarts.WebAPI", "..\MiniETicaret.ShoppingCarts.WebAPI\MiniETicaret.ShoppingCarts.WebAPI.csproj", "{97896147-F23A-49FF-9C5F-9F2F0DA018D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniETicaret.Orders.WebAPI", "..\MiniETicaret.Orders.WebAPI\MiniETicaret.Orders.WebAPI.csproj", "{44F4C535-9716-42A1-BA18-9F0D61CCE653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniETicaret.Gateway.YARP", "..\MiniETicaret.Gateway.YARP\MiniETicaret.Gateway.YARP.csproj", "{B98BA961-ACA1-402E-89B1-7953B9FAE16C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{97896147-F23A-49FF-9C5F-9F2F0DA018D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97896147-F23A-49FF-9C5F-9F2F0DA018D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97896147-F23A-49FF-9C5F-9F2F0DA018D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F4C535-9716-42A1-BA18-9F0D61CCE653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F4C535-9716-42A1-BA18-9F0D61CCE653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F4C535-9716-42A1-BA18-9F0D61CCE653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F4C535-9716-42A1-BA18-9F0D61CCE653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B98BA961-ACA1-402E-89B1-7953B9FAE16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98BA961-ACA1-402E-89B1-7953B9FAE16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98BA961-ACA1-402E-89B1-7953B9FAE16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98BA961-ACA1-402E-89B1-7953B9FAE16C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

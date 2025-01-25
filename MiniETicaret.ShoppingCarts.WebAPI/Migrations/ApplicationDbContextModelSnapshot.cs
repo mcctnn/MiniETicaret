@@ -24,7 +24,7 @@ namespace MiniETicaret.ShoppingCarts.WebAPI.Migrations
 
             modelBuilder.Entity("MiniETicaret.ShoppingCarts.WebAPI.Models.ShoppingCart", b =>
                 {
-                    b.Property<Guid>("ShoppingCartId")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
@@ -34,7 +34,7 @@ namespace MiniETicaret.ShoppingCarts.WebAPI.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("integer");
 
-                    b.HasKey("ShoppingCartId");
+                    b.HasKey("Id");
 
                     b.ToTable("ShoppingCarts");
                 });

@@ -1,4 +1,7 @@
 ﻿namespace MiniETicaret.Products.WebAPI.Dtos
 {
-    public sealed record CreateProductDto(string ProductName,decimal Price,int Stock);
+    public sealed record CreateProductDto(
+    string Name,
+    decimal Price,
+    int Stock);
 }
